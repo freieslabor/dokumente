@@ -3,7 +3,6 @@
 \usepackage[T1]{fontenc}
 \usepackage[ngerman]{babel}
 \usepackage{tabularx}
-\usepackage{libertine} % kann man notfalls auch ignorieren, wenns nicht da ist
 %\usepackage{textcomp} % für €
 %\usepackage[cm]{fullpage}
 
@@ -17,9 +16,9 @@
 \newcommand{\wahltabellenzeile}[1]{#1 \rule[-3pt]{0pt}{16pt}\phantom{asdf} & \\ \hline}
 \newcommand{\wahltabelle}[1]{
   \begin{kandidaten}{#1}
-    \wahltabellenzeile{Kandidat 1}
-    \wahltabellenzeile{Kandidat 2}
-    \wahltabellenzeile{Kandidat 3}
+    \wahltabellenzeile{KandidatIn 1}
+    \wahltabellenzeile{KandidatIn 2}
+    \wahltabellenzeile{KandidatIn 3}
   \end{kandidaten}
 }
 
@@ -30,22 +29,22 @@
 
 \begin{document}
 \begin{center}
-  {\Large\bfseries Vorstandswahl Stratum~0~e.~V. \\[0.5em] Stimmzettel}
+  {\Large\bfseries Vorstandswahl Freies~Labor~e.~V. \\[0.5em] Stimmzettel}
   \\[1em]
-  {\large 8. Januar 2012}
+  {\large 25. Januar 2014}
 \end{center}
 
 
-\wahltabelle{1. Vorsitzender}
-\wahltabelle{stellvertretender Vorsitzender}
-\wahltabelle{Kassenwart}
-\begin{kandidaten}{Beisitzer}
-  \wahltabellenzeile{Kandidat 1}
-  \wahltabellenzeile{Kandidat 2}
-  \wahltabellenzeile{Kandidat 3}
-  \wahltabellenzeile{Kandidat 4}
-  \wahltabellenzeile{Kandidat 5}
-  \wahltabellenzeile{Kandidat 6}
+\wahltabelle{1. VorsitzendeR}
+\wahltabelle{Stellv. VorsitzendeR}
+\wahltabelle{KassenwartIn}
+\begin{kandidaten}{BeisitzerIn}
+  \wahltabellenzeile{KandidatIn 1}
+  \wahltabellenzeile{KandidatIn 2}
+  \wahltabellenzeile{KandidatIn 3}
+  \wahltabellenzeile{KandidatIn 4}
+  \wahltabellenzeile{KandidatIn 5}
+  \wahltabellenzeile{KandidatIn 6}
 \end{kandidaten}
 
 \end{document}
